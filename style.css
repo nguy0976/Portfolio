@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Unna', serif;
+}
+
+/* banner for mobile */
+@media screen and (min-width: 240px) {
+    .banner_container {
+        max-width: 100%;
+        margin: auto;
+    }
+    .logo {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .menu {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: black;
+    }
+    .menu ul li { 
+        list-style: none;
+        padding-bottom: 15px;    
+    }
+}
+/* end banner for mobile */
+
+/* banner for tablet and desktop */
+@media screen and (min-width: 480px) {
+    .menu {
+        padding: 30px
+    }
+    .menu ul li {
+        display: inline;
+        padding: 0 50px;
+        border-left: solid 1px;
+        border-right: solid 1px
+    }
+    .menu ul li a {
+        font-size: 20px;
+    }
+}
+/* end banner tablet and desktop */
+
+/* footer mobile */
+@media screen and (min-width: 240px) {
+    .footer_container {
+        position: relative;
+        max-width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+        background-color: #C9C9C9;
+    }
+    .media {
+        text-align: center;
+        margin-bottom: 10px
+    }
+    .media ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none; 
+        padding: 10px;
+    }
+    .media ul li {
+        margin: 0 5px;
+    }
+    .media h3 {
+        font-size: 25px;
+    }
+    .media p {
+        color: #E98C2E;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+/* end footer mobile */
+
+/* footer tablet and desktop */
+@media screen and (min-width: 480px) {
+    .media h3 {
+        font-size: 30px;
+    }
+    .media p {
+        font-size: 20px;
+    }
+    .media ul li {
+        margin: 0 10px
+    }
+}
+/* end footer tabet and desktop */
