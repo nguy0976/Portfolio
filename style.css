@@ -97,3 +97,309 @@
     }
 }
 /* end footer tabet and desktop */
+
+/*--------------------Home Page--------------------*/
+/* Home Page for mobile */
+@media screen and (min-width: 240px) {
+    .header_img {
+        position: relative;
+        width: 100%;
+        height: 250px;
+       
+    }
+    .header_img img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    .header_text {
+        position: absolute;
+        text-align: center;
+        top: 32%;
+        color: white;
+    }
+    .header_text h1 {
+        padding: 10px;
+        color: #E98C2E;
+    }
+    .header_text h2 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .header {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .button {
+        position: absolute;
+        top: 50%;
+        left: 36%
+    }
+    .button a {
+        display: inline-block;
+        text-decoration: none;
+        background: #E98C2E;
+        padding: 5px 10px;
+        color: #f2f2f2;
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    .text_container {
+        max-width: 100%;
+    }
+    .text {
+        text-align: center;
+        padding: 20px 30px;
+    }
+    .text h1 {
+        padding: 10px;
+        color: #E98C2E;
+    }
+    .web_img img {
+        width: 100%;
+        height: 200px;
+        padding-bottom: 20px;
+    }
+    .web_container {
+        max-width: 100%;
+        height: 100%;
+        background: #F3F3F3;
+        padding: 20px;
+    }
+    .web_text {
+        text-align: center;
+        padding: 0 30px
+    }
+    .web_text h2 {
+        padding-bottom: 10px;
+        color: #E98C2E;
+        font-style: italic;
+    }
+    .learn1 a {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        background: #E98C2E;
+        padding: 5px 10px;
+        color: #f2f2f2;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    .learn1 {
+        text-align: center;
+        padding-top: 30px;
+
+    }
+    .photo_container {
+        max-width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .photo_img img {
+        width: 100%;
+        height: 200px;
+        padding-bottom: 20px;
+    }
+    .photo_text {
+        text-align: center;
+        padding: 0 30px;
+    }
+    .photo_text h2 {
+        padding-bottom: 10px;
+        color: #E98C2E;
+        font-style: italic;
+    }
+    .learn2 a {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        background: #E98C2E;
+        padding: 5px 10px;
+        color: #f2f2f2;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    .learn2 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .graphic_container {
+        max-width: 100%;
+        height: 100%;
+        background: #F3F3F3;
+        padding: 20px;
+    }
+    .graphic_img img {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        padding-bottom: 20px;
+    }
+    .graphic_text {
+        text-align: center;
+        padding: 0 30px;
+    }
+    .graphic_text h2 {
+        padding-bottom: 10px;
+        color: #E98C2E;
+        font-style: italic;
+    }
+    .learn3 a {
+        display: inline-block;
+        width: 100%;
+        text-decoration: none;
+        background: #E98C2E;
+        padding: 5px 10px;
+        color: #f2f2f2;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+    .learn3 {
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+/* End Home Page for mobile */
+
+/* Home Page for tablet */
+@media screen and (min-width: 1024px) {
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .web_content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 50px
+    }
+    .web_img {
+        position: relative;
+        flex-basis: 50%;
+        height: 300px;
+    }
+    .web_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .web_text {
+        text-align: unset;
+        flex-basis: 50%;
+        padding: 0 50px;
+    }
+    .learn1 {
+        position: absolute;
+        bottom: 70px;
+        right: 130px;
+    }
+    .learn1 a {
+        width: unset;
+        padding: 10px 50px;
+    }
+
+    .photo {
+        position: relative;
+    }
+    .photo_container {
+        max-width: 100%;
+    }
+    .photo_content {
+        flex-direction: row-reverse;
+        padding: 0 50px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+    }
+    .photo_text {
+        text-align: left;
+        flex-basis: 50%;
+        padding: 0 50px
+    }
+    .photo_img {
+        position: relative;
+        flex-basis: 50%;
+        height: 300px;
+    }
+    .photo_img img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .learn2 {
+        position: absolute;
+        bottom: 50px;
+    }
+    .learn2 a {
+        width: unset;
+        padding: 10px 50px;
+    }
+
+
+    .graphic_content {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 50px;
+    }
+    .graphic_img {
+        position: relative;   
+        flex-basis: 50%;
+        height: 300px;
+    }
+    .graphic_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+    .graphic_text {
+        text-align: unset;
+        flex-basis: 50%;
+        padding: 0 50px;
+    }
+    .learn3 {
+        position: absolute;
+        right: 125px;
+        top: 157%;
+    }
+    .learn3 a {
+        width: unset;
+        padding: 10px 50px;
+    }
+}
+/* End Home Page for tablet */
+
+/* Home Page for desktop */
+/* End Home Page for desktop */
+/*--------------------End Home Page--------------------*/
+
+/*--------------------Work Page--------------------*/
+/* Work Page for mobile */
+/* End Work Page for mobile */
+
+/* Work Page for tablet */
+/* End Work Page for mobile */
+
+/* Work Page for desktop */
+/* End Work Page for desktop */
+/*--------------------End Work Page--------------------*/
+
+/*--------------------About Page--------------------*/
+/* About Page for mobile */
+/* End About Page for mobile */
+
+/* About Page for tablet */
+/* End About Page for mobile */
+
+/* About Page for desktop */
+/* End About Page for desktop */
+/*--------------------End About Page--------------------*/
