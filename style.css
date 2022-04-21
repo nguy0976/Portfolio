@@ -906,6 +906,117 @@
 /* End Work Page for mobile */
 
 /* Work Page for desktop */
+@media screen and (min-width: 1024px) {
+    .web1_container {
+        position: relative;
+        width: 100%;
+    }
+    .web1_content {
+        position: relative;
+        display: flex;
+    }
+    .web_product h2 {
+        padding-bottom: 40px;
+    }
+    .web1_content img {
+        width: 50%;
+        height: 400px;
+    }
+    .web1_text {
+        flex-basis: 50%;  
+        text-align: left;
+        padding-left: 30px;
+    }
+    .web2_content {
+        position: relative;
+        display: flex; 
+        flex-direction: row-reverse;   
+    }
+    .web2_content img {
+        width: 50%;
+        height: 400px;
+    }
+    .web2_text {
+        flex-basis: 50%;
+        text-align: right;
+        padding-right: 30px;
+    }
+    .discover {
+        padding-top: 50px;
+    }
+    .discover a {
+        display: inline-block;
+        width: 30%;
+    }
+    .photo1_container {
+        position: relative;
+        width: 100%;
+    }
+    .photo1_content {
+        position: relative;
+        display: flex;
+    }
+    .photo_product h2 {
+        padding-bottom: 40px;
+    }
+    .photo1_content img {
+        width: 50%;
+        height: 400px;
+    }
+    .photo1_text {
+        flex-basis: 50%;
+        text-align: left;
+        padding-left: 30px;       
+    }
+    .photo2_content {
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .photo2_content img {
+        width: 50%;
+        height: 400px;
+    }
+    .photo2_text {
+        flex-basis: 50%;
+        text-align: right;
+        padding-right: 30px;
+    }
+    .graphic1_container {
+        position: relative;
+        width: 100%;
+    }
+    .graphic1_content {
+        position: relative;
+        display: flex;
+    }
+    .graphic_product h2 {
+        padding-bottom: 40px;
+    }
+    .graphic1_content img {
+        width: 50%;
+        height: 400px;
+    }
+    .graphic1_text {
+        flex-basis: 50%;
+        text-align: left;
+        padding-left: 30px;       
+    }
+    .graphic2_content {
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .graphic2_content img {
+        width: 50%;
+        height: 400px;
+    }
+    .graphic2_text {
+        flex-basis: 50%;
+        text-align: right;
+        padding-right: 30px;
+    }
+}
 /* End Work Page for desktop */
 /*--------------------End Work Page--------------------*/
 
