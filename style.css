@@ -128,6 +128,7 @@
         width: 100%;
         height: 250px;
         overflow: hidden;
+        border: solid 2px #E98C2E;
     }
     .header_img::before {
         content: "";
@@ -442,26 +443,32 @@
         position: absolute;
         text-align: center;
         color: white;
-        top: 20%
+        right: 17%;
     }
     .header_text h1 {
-        padding: 10px;
+        padding: 20px;
         color: #E98C2E;
+        font-size: 60px;
     }
     .header_text h2 {
         font-style: italic;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 40px;
+    }
+    .header_text h3 {
+        font-size: 30px;
     }
     .web_content {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 50px
+        padding: 0 50px;
+        height: 400px;
     }
     .web_img {
         position: relative;
         flex-basis: 50%;
-        height: 300px;
+        height: 400px;
+        padding-top: 10px;
     }
     .web_img img {
         width: 100%;
@@ -475,12 +482,12 @@
     }
     .learn1 {
         position: absolute;
-        bottom: 70px;
-        right: 130px;
+        bottom: 10%;
+        right: 10%;
     }
     .learn1 a {
-        width: unset;
-        padding: 10px 50px;
+        padding: 10px 10px;
+        width: 150px;
     }
     .photo {
         position: relative;
@@ -494,6 +501,7 @@
         display: flex;
         flex-wrap: wrap;
         text-align: right;
+        height: 400px;
     }
     .photo_text {
         text-align: left;
@@ -503,7 +511,8 @@
     .photo_img {
         position: relative;
         flex-basis: 50%;
-        height: 300px;
+        height: 400px;
+        padding-top: 10px;
     }
     .photo_img img {
         position: relative;
@@ -514,25 +523,28 @@
     .learn2 {
         position: absolute;
         bottom: 50px;
+        left: 10%;
     }
     .learn2 a {
-        width: unset;
-        padding: 10px 50px;
+        padding: 10px 10px;
+        width: 150px;
     }
     .graphic_content {
         display: flex;
         flex-wrap: wrap;
         padding: 0 50px;
+        height: 400px;
     }
     .graphic_img {
         position: relative;   
         flex-basis: 50%;
-        height: 300px;
+        height: 400px;
+        padding-top: 10px;
     }
     .graphic_img img {
         width: 100%;
         height: 100%;
-        object-fit: cover
+        object-fit: cover;
     }
     .graphic_text {
         text-align: unset;
@@ -541,12 +553,12 @@
     }
     .learn3 {
         position: absolute;
-        right: 125px;
-        top: 157%;
+        right: 10%;
+        bottom: 10%;
     }
     .learn3 a {
-        width: unset;
-        padding: 10px 50px;
+        padding: 10px 10px;
+        width: 150px;
     }
 }
 /* End Home Page for desktop */
