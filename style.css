@@ -57,7 +57,7 @@
         max-width: 100%;
         padding: 20px;
         margin: 0 auto;
-        background-color: #C9C9C9;
+        background-color:#cf7b2b;
     }
     .media {
         text-align: center;
@@ -77,7 +77,7 @@
         font-size: 25px;
     }
     .media p {
-        color: #E98C2E;
+        color: White;
         font-size: 20px;
         font-style: italic;
     }
@@ -87,7 +87,7 @@
 /* footer tablet and desktop */
 @media screen and (min-width: 480px) {
     .media h3 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .media p {
         font-size: 20px;
