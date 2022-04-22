@@ -8,14 +8,14 @@
 - [x] Flexbox
 - [x] Layout
 - [x] Text on image
-**A list of any assets or resources you used that was not my own**
+### **A list of any assets or resources you used that was not my own**
 [GoogleFonts](https://fonts.google.com/)
 [Icon](https://fontawesome.com/)
 [Images](https://www.freeimages.com/)
 ### And some social media images
-![Facebook icon](facebook.svg)
-![Instagram](instagram.svg)
-![Twitter](twitter.svg)
+![Facebook](/Images/facebook.svg)
+![Instagram](/Images/instagram.svg)
+![Twitter](/Images/twitter.svg)
 
 ~~Thank You.~~
 
