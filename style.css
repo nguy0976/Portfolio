@@ -202,6 +202,7 @@
         font-size: 20px;
         font-weight: 700;
         border-radius: 50px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.5);  
     }
     .learn1 {
         text-align: center;
@@ -237,6 +238,7 @@
         font-size: 20px;
         font-weight: 700;
         border-radius: 50px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.5);  
     }
     .learn2 {
         text-align: center;
@@ -274,6 +276,7 @@
         font-size: 20px;
         font-weight: 700;
         border-radius: 50px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.5);  
     }
     .learn3 {
         text-align: center;
@@ -672,6 +675,7 @@
         font-size: 20px;
         font-weight: 700;
         border-radius: 50px;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.5);  
     }
     .photo1_container {
         position: relative;
@@ -959,7 +963,7 @@
     }
     .top_h1 {
         position: absolute;
-        right: 31%;
+        right: 35%;
         top: 40%;
         color: #E98C2E;
         font-size: 50px;
